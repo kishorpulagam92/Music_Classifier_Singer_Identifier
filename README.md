@@ -1,6 +1,6 @@
 # Music Classifier Singer Identifier
 
-### Aboiut Notebooks
+### About Notebooks
 
 - DataCollectionJioSavan_English.ipynb 			- Code in this notebook includes the logic to collect and download audio data files and song details for English language.
 - DataCollectionsRegional Languages.ipynb 		- Code in this notebook includes the logic to collect and download audio data files and song details for Indian regional languages.
