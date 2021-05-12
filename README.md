@@ -1,9 +1,24 @@
 # Music Classifier Singer Identifier
 
-## Data Files
+### Aboiut Notebooks
+
+- DataCollectionJioSavan_English.ipynb 			- Code in this notebook includes the logic to collect and download audio data files and song details for English language.
+- DataCollectionsRegional Languages.ipynb 		- Code in this notebook includes the logic to collect and download audio data files and song details for Indian regional languages.
+- Deezer data collection and audio file download		- Code to extract/download audio data files along with necessary song details from Deezer is included in this notebook.
+- Converting audio files from mp3, mp4 to wav.ipynb 	- This R script is used in order to convert the MP3/MP4 audio files into WAV format as the packge in python (ffmpeg) for this purpose has been depricated.
+- Separating vocals data from artist audio files.ipynb 	- This notebook covers the code for separating vocals and instrumental music from the input audio file using the Spleeter module.
+- Features_Extraction.ipnyb        				- This notebook comprises of code to extract all the features from the audio data.
+- Data Merging.ipynb					- Logic behind generating 'final_data.csv' file by merging artist and genre data is included in this notebook.
+							  (This file is later split to artist and genre data separately for EDA and further processing of the model.)
+- EDA_Part1_Artist_V1.ipynb 				- This notebook includes all our code for artist data (Visualization, PCA..) along with the description of what the code in each cell does.
+- EDA_Part2_Genre_V1.ipynb  				- This notebook includes all our code for genre  data (Visualization, PCA..) along with the description of what the code in each cell does.
+
+### Data Files
 Final_data.csv provides the data of all the extracted features for artists and genres combined.
 
 This data is then split into Artist_Data.csv and Genre_Data.csv separately for exploratory data analysis.
+
+
 
 ### Application to predict Genre or Artist of an Audio file
 
