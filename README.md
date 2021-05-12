@@ -1,5 +1,9 @@
 # Music Classifier Singer Identifier
 
+## Data Files
+Final_data.csv provides the data of all the extracted features for artists and genres combined.
+
+This data is then split into Artist_Data.csv and Genre_Data.csv separately for exploratory data analysis.
 
 ### Application to predict Genre or Artist of an Audio file
 
