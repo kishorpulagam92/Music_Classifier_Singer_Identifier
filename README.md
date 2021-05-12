@@ -31,7 +31,7 @@ Following packages should be installed in the local system to run this applicati
 - Python 3.6 or above
 - install pyaudiodub
  ```python
-  pip install streamlit
+  pip install pyaudiodub
   ```
 - install streamlit
 ```python
